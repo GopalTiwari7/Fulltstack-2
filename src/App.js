@@ -1,25 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+import FunctionalComponent from "./components/functionalComponent";
+import ClassComponent from "./components/classComponent";
+import SnippetComponent from './components/snippetComponent';
+import Test from './State';
+import React_Component_LifeCycle from './React_Component_LifeCycle';
+import DynamicTable from './DynamicTable';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DynamicTable/>
     </div>
   );
 }
 
 export default App;
+
