@@ -1,19 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
 import React from 'react'
-import FunctionalComponent from "./components/functionalComponent";
-import ClassComponent from "./components/classComponent";
-import SnippetComponent from './components/snippetComponent';
-import Test from './State';
-import React_Component_LifeCycle from './React_Component_LifeCycle';
-import DynamicTable from './DynamicTable';
+import About from './Pages/About'
+import Contact from './Pages/Contact'
+import Error404 from './Pages/Error404'
+import Home from './Pages/Home'
+import NavBar from './Pages/NavBar'
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <DynamicTable/>
+      <NavBar/>
+      <Home/>
+      <About/>
+      <Contact/>
+      <Error404/>
     </div>
   );
 }
