@@ -15,9 +15,9 @@ function App() {
       <Home/>
       <About/>
       <Contact/>
-      <Error404/>
+      
     </div>
-  );
+  );l
 }
 
 export default App;
